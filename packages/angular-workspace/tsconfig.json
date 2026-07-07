@@ -5,7 +5,8 @@
   "compilerOptions": {
     "paths": {
       "stencil-library": ["../stencil-library/dist/types/index"],
-      "stencil-library/*": ["../stencil-library/dist/*"]
+      "stencil-library/*": ["../stencil-library/dist/*"],
+      "component-library": ["./projects/component-library/src/public-api"]
     },
     "strict": true,
     "noImplicitOverride": true,
