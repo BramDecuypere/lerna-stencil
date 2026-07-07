@@ -4,7 +4,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "stencil-library": ["./dist/component-library"]
+      "stencil-library": ["../stencil-library/dist/types/index"],
+      "stencil-library/*": ["../stencil-library/dist/*"]
     },
     "strict": true,
     "noImplicitOverride": true,
