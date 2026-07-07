@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@stencil/angular-output-target": "^1.4.0",
+    "@types/node": "^26.1.0",
+    "lerna": "^9.0.7",
+    "typescript": "^6.0.3"
+  }
+}
